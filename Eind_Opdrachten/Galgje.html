@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Galgje</title>
+</head>
+
+<body>
+    <section>
+        <h1>Galgje</h1>
+        <div class="Galgje" id="Galgje"></div>
+        <div class="outer-color"><input type="text" id="letterInput" maxlength="1"></div>
+        <button id="guessButton">Submit</button>
+        <div id="verkeerde_Letters"></div>
+        <div id="levens">
+            <p>levens = 10</p>
+        </div>
+        <div id="bericht"></div>
+        <button id="resetButton">Reset</button>
+    </section>
+</body>
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
+
+    .Galgje {
+        margin: 25px;
+        font-size: 24px;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: aliceblue;
+        padding: 20px 10px 20px 10px;
+        border: 1px solid lightblue;
+    }
+
+    .outer-color {
+        background-color: lightgrey;
+        padding: 1px;
+        border-radius: 5px;
+        padding: 2px;
+    }
+
+    input {
+        height: 50px;
+        width: 200px;
+        border-color: lightgreen;
+        border-radius: 5px;
+        padding: 2px;
+        text-align: center;
+    }
+
+    button {
+        height: 25px;
+        width: 197px;
+        border: 1px solid grey;
+        border-radius: 4px;
+    }
+</style>
+<script src="Galgje.js"></script>
+
+</html>
