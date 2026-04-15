@@ -1,0 +1,1 @@
+//Value1 wordt een nummer omdat de functie echt wordt uitgevoerd, terwijl value2 een functie blijft doordat je alleen naar de functie zelf verwijst zonder deze aan te roepen.
